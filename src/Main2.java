@@ -4,6 +4,7 @@ import L7_Dz2.Rabothiy;
 
 public class Main2 {
     public static void main(String[] args){
+        String S ="new";
         Director director = new Director("Иван Михайлович");
         director.print();
 
