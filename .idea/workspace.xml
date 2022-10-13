@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dee1846-7783-4087-b800-7bba08f71762" name="Changes" comment="Домашнее задание 7 1-2">
+    <list default="true" id="3dee1846-7783-4087-b800-7bba08f71762" name="Changes" comment="Домашнее задание 7 1-2 (11_23.27)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L7_Dz2/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/L7_Dz2/Director.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L7_Dz2/Printable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/L7_Dz2/Printable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Krug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Krug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kvadrat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kvadrat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Priamougolnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Priamougolnik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trapecyia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trapecyia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Treugolnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Treugolnik.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,25 +39,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main2">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Lesson7" />
@@ -70,8 +74,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -84,7 +88,8 @@
       <option name="presentableId" value="Default" />
       <updated>1665431280067</updated>
       <workItem from="1665431281550" duration="4456000" />
-      <workItem from="1665506137987" duration="9660000" />
+      <workItem from="1665506137987" duration="10005000" />
+      <workItem from="1665675781874" duration="1034000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1665431558103</created>
@@ -100,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665519435412</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Домашнее задание 7 1-2 (11_23.27)">
+      <created>1665520062857</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665520062857</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +132,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
     <MESSAGE value="Домашнее задание 7 1-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Домашнее задание 7 1-2" />
+    <MESSAGE value="Домашнее задание 7 1-2 (11_23.27)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Домашнее задание 7 1-2 (11_23.27)" />
   </component>
 </project>

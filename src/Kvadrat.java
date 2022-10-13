@@ -1,24 +1,32 @@
 public class Kvadrat implements Figure {
-    //Стороны Квардрата a,b,c,d (равны)
-    double P;
-    double S;
     double a = 5.85;
     double b = a;
     double c = a;
     double d = a;
+    double P = (a + b + c + d);
+    double S = (a * c);
 
+    public Kvadrat() {
+    }
 
     @Override
-    public double Ploshad() {
-        S = (a * c);
-        System.out.println("Площадь Квадрата: " + S);
+    public double ploshad() {
         return S;
     }
 
     @Override
-    public double Perimetr() {
-        P = (a + b + c + d);
-        System.out.println("Периметр Квадрата : " + P);
+    public double perimetr() {
         return P;
+    }
+
+    @Override
+    public String print(String i) {
+        if (i == "P") {
+            System.out.printf("Периметр Квадрата равен: %.2f %n", P);
+        }
+        if (i == "S") {
+            System.out.printf("Площадь Квадрата: %.2f %n", S);
+        }
+        return null;
     }
 }

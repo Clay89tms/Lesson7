@@ -1,23 +1,30 @@
 public class Trapecyia implements Figure {
-    double S;
-    double P;
+
     double a = 10;
     double b = 8;
     double c = 6;
     double d = 5;
+    double S = ((a + b) / 2) * Math.sqrt((c * c) - Math.pow((((a - b) * (a - b) + (c * c) - (d * d)) / (2 * (a - b))), 2));
+    double P = (a + b + c + d);
 
     @Override
-    public double Ploshad() {
-        S = ((a + b) / 2) * Math.sqrt((c * c) - (((a - b) * (a - b) + (c * c) - (d * d)) / (2 * (a - b))) *
-                (((a - b) * (a - b) + (c * c) - (d * d)) / (2 * (a - b))));
-        System.out.println("Площадь Трапеции: " + S);
+    public double ploshad() {
         return S;
     }
 
     @Override
-    public double Perimetr() {
-        P = (a + b + c + d);
-        System.out.println("Периметр Трапеции : " + P);
+    public double perimetr() {
         return P;
+    }
+
+    @Override
+    public String print(String i) {
+        if (i == "P") {
+            System.out.printf("Периметр Квадрата равен: %.2f %n", P);
+        }
+        if (i == "S") {
+            System.out.printf("Площадь Квадрата: %.2f %n", S);
+        }
+        return null;
     }
 }

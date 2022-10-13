@@ -1,8 +1,10 @@
 public interface Figure {
 
-    double Ploshad();
+    double ploshad();
 
-    double Perimetr();
+    double perimetr();
+
+    String print(String i);
 
 
 }
