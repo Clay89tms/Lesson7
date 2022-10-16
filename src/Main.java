@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+
         double P;
         double S;
         Figure kvadrat = new Kvadrat();

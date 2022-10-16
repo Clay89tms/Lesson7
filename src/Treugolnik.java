@@ -3,7 +3,6 @@ public class Treugolnik implements Figure {
     double b = 8.6;
     double c = 10.99;
     double h;
-
     public Treugolnik() {
     }
 

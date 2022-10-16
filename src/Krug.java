@@ -4,7 +4,6 @@ public class Krug implements Figure {
 
     public Krug() {
     }
-
     @Override
     public double ploshad() {
         return (pi * Math.pow(r, 2));

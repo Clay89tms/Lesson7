@@ -6,7 +6,6 @@ public class Kvadrat implements Figure {
 
     public Kvadrat() {
     }
-
     @Override
     public double ploshad() {
         return ((a * c));
