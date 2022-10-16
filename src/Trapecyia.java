@@ -5,6 +5,7 @@ public class Trapecyia implements Figure {
     double c = 6;
     double d = 5;
     double S = 0;
+
     @Override
     public double ploshad() {
         S = ((a + b) / 2) * Math.sqrt((c * c) - Math.pow((((a - b) * (a - b) + (c * c) - (d * d)) / (2 * (a - b))), 2));

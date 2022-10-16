@@ -3,6 +3,7 @@ public class Priamougolnik implements Figure {
     double b = 10.1;
     double c = a;
     double d = b;
+
     public Priamougolnik() {
     }
 

@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-
         double P;
         double S;
         Figure kvadrat = new Kvadrat();
@@ -20,7 +19,7 @@ public class Main {
         System.out.printf("Summa Ploshadey = %.2f %n", SPL);
         System.out.println();
 
-        for (Figure i : mas){
+        for (Figure i : mas) {
             i.print("P");
             i.print("S");
 
