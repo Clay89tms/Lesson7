@@ -3,29 +3,27 @@ public class Priamougolnik implements Figure {
     double b = 10.1;
     double c = a;
     double d = b;
-    double S = Math.pow(a, 2);
-    double P = (a + b + c + d);
 
     public Priamougolnik() {
     }
 
     @Override
     public double ploshad() {
-        return S;
+        return (Math.pow(a, 2));
     }
 
     @Override
     public double perimetr() {
-        return P;
+        return ((a + b + c + d));
     }
 
     @Override
     public String print(String i) {
         if (i == "P") {
-            System.out.printf("Периметр Прямоугольника: %.2f %n", P);
+            System.out.printf("Периметр Прямоугольника: %.2f %n", ((a + b + c + d)));
         }
         if (i == "S") {
-            System.out.printf("Площадь Прямоугольника: %.2f %n", S);
+            System.out.printf("Площадь Прямоугольника: %.2f %n", (Math.pow(a, 2)));
         }
         return null;
     }

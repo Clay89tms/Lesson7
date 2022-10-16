@@ -3,29 +3,27 @@ public class Kvadrat implements Figure {
     double b = a;
     double c = a;
     double d = a;
-    double P = (a + b + c + d);
-    double S = (a * c);
 
     public Kvadrat() {
     }
 
     @Override
     public double ploshad() {
-        return S;
+        return ((a * c));
     }
 
     @Override
     public double perimetr() {
-        return P;
+        return ((a + b + c + d));
     }
 
     @Override
     public String print(String i) {
         if (i == "P") {
-            System.out.printf("Периметр Квадрата равен: %.2f %n", P);
+            System.out.printf("Периметр Квадрата равен: %.2f %n", ((a + b + c + d)));
         }
         if (i == "S") {
-            System.out.printf("Площадь Квадрата: %.2f %n", S);
+            System.out.printf("Площадь Квадрата: %.2f %n", ((a * c)));
         }
         return null;
     }

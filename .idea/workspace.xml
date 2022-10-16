@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dee1846-7783-4087-b800-7bba08f71762" name="Changes" comment="Домашнее задание 7 1-2 (11_23.27)">
+    <list default="true" id="3dee1846-7783-4087-b800-7bba08f71762" name="Changes" comment="Домашнее задание 7 1-2 (13_19.02)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Figure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Krug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Krug.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kvadrat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kvadrat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Priamougolnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Priamougolnik.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trapecyia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trapecyia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Treugolnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Treugolnik.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +82,7 @@
       <updated>1665431280067</updated>
       <workItem from="1665431281550" duration="4456000" />
       <workItem from="1665506137987" duration="10005000" />
-      <workItem from="1665675781874" duration="1034000" />
+      <workItem from="1665675781874" duration="2979000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1665431558103</created>
@@ -112,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665520062857</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Домашнее задание 7 1-2 (13_19.02)">
+      <created>1665676983750</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665676983750</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +133,7 @@
     <MESSAGE value="start" />
     <MESSAGE value="Домашнее задание 7 1-2" />
     <MESSAGE value="Домашнее задание 7 1-2 (11_23.27)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Домашнее задание 7 1-2 (11_23.27)" />
+    <MESSAGE value="Домашнее задание 7 1-2 (13_19.02)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Домашнее задание 7 1-2 (13_19.02)" />
   </component>
 </project>
